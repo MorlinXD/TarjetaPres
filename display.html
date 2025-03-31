@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedad Display en CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f0f0f0;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Valores principales de la propiedad display en CSS</h1>
+    <table>
+        <tr>
+            <th>Valor</th>
+            <th>Descripción</th>
+        </tr>
+        <tr>
+            <td>inline</td>
+            <td>Muestra un elemento como en línea (como &lt;span&gt;). Las propiedades de altura y ancho no tienen efecto.</td>
+        </tr>
+        <tr>
+            <td>block</td>
+            <td>Muestra un elemento como un bloque (como &lt;p&gt;). Comienza en una nueva línea y ocupa todo el ancho disponible.</td>
+        </tr>
+        <tr>
+            <td>flex</td>
+            <td>Muestra un elemento como un contenedor flexible de nivel bloque. Ideal para diseños flexibles.</td>
+        </tr>
+        <tr>
+            <td>grid</td>
+            <td>Muestra un elemento como un contenedor de cuadrícula de nivel bloque. Perfecto para diseños en rejilla.</td>
+        </tr>
+        <tr>
+            <td>inline-block</td>
+            <td>Muestra un elemento como un bloque en línea. Permite establecer altura y ancho.</td>
+        </tr>
+        <tr>
+            <td>none</td>
+            <td>Elimina completamente el elemento del diseño (no se muestra ni ocupa espacio).</td>
+        </tr>
+        <tr>
+            <td>initial</td>
+            <td>Establece la propiedad a su valor predeterminado.</td>
+        </tr>
+        <tr>
+            <td>inherit</td>
+            <td>Hereda el valor de la propiedad del elemento padre.</td>
+        </tr>
+    </table>
+</body>
+</html>

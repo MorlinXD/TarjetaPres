@@ -1,0 +1,61 @@
+/* estilo general */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+  }
+  
+  /* contenedor menu */
+  .menu {
+    width: 40%;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo de las opciones del menu*/
+  .opcion {
+    border: 2px solid gray;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    display: block;
+  }
+  
+  /* Imágenes con bordes */
+  .opcion img {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: 2px solid gray;
+  }
+  
+  /* Nombre del platillo */
+  .opcion h2 {
+    display: block;
+    margin: 5px 0;
+    font-size: 20px;
+  }
+  
+  /* Precio con inline-block */
+  .precio {
+    display: inline-block;
+    font-weight: bold;
+    background-color: #ffcc00;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  /* Botón con inline-block */
+  .boton {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }

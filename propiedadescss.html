@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principales Propiedades CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        table {
+            width: 80%;
+            max-width: 800px;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #0066cc;
+            color: white;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        td:first-child {
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Propiedad</th>
+            <th>Descripción</th>
+            <th>Ejemplo</th>
+        </tr>
+        <tr>
+            <td>color</td>
+            <td>Define el color del texto</td>
+            <td>color: #ff0000;</td>
+        </tr>
+        <tr>
+            <td>font-size</td>
+            <td>Establece el tamaño de la fuente</td>
+            <td>font-size: 16px;</td>
+        </tr>
+        <tr>
+            <td>font-family</td>
+            <td>Especifica la fuente del texto</td>
+            <td>font-family: Arial;</td>
+        </tr>
+        <tr>
+            <td>background-color</td>
+            <td>Define el color de fondo</td>
+            <td>background-color: #f0f0f0;</td>
+        </tr>
+        <tr>
+            <td>width</td>
+            <td>Establece el ancho de un elemento</td>
+            <td>width: 300px;</td>
+        </tr>
+        <tr>
+            <td>height</td>
+            <td>Establece la altura de un elemento</td>
+            <td>height: 200px;</td>
+        </tr>
+        <tr>
+            <td>margin</td>
+            <td>Define el margen exterior</td>
+            <td>margin: 10px;</td>
+        </tr>
+        <tr>
+            <td>padding</td>
+            <td>Define el relleno interior</td>
+            <td>padding: 15px;</td>
+        </tr>
+        <tr>
+            <td>border</td>
+            <td>Establece el borde de un elemento</td>
+            <td>border: 1px solid #000;</td>
+        </tr>
+        <tr>
+            <td>border-radius</td>
+            <td>Redondea las esquinas</td>
+            <td>border-radius: 5px;</td>
+        </tr>
+        <tr>
+            <td>box-shadow</td>
+            <td>Añade sombra al elemento</td>
+            <td>box-shadow: 0 4px 8px rgba(0,0,0,0.1);</td>
+        </tr>
+        <tr>
+            <td>display</td>
+            <td>Controla el tipo de visualización</td>
+            <td>display: flex;</td>
+        </tr>
+        <tr>
+            <td>position</td>
+            <td>Define el tipo de posicionamiento</td>
+            <td>position: absolute;</td>
+        </tr>
+        <tr>
+            <td>top / left</td>
+            <td>Posiciona respecto a bordes</td>
+            <td>top: 10px; left: 20px;</td>
+        </tr>
+        <tr>
+            <td>text-align</td>
+            <td>Alinea el texto</td>
+            <td>text-align: center;</td>
+        </tr>
+    </table>
+</body>
+</html>
